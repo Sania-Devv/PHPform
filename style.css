@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(54, 126, 102);
+    font-family: sans-serif;
+    
+}
+
+.container {
+  margin:50px;
+    padding: 16px;
+    text-align: center;
+  }
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+ border: 1px solid #ccc;
+ 
+}
+
+button {
+  background-color: #3e8b88;
+  color: white;
+  width:10%;
+  cursor: pointer;
+ font-size: 20px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+
